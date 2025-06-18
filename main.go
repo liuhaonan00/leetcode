@@ -6,13 +6,11 @@ import (
 )
 
 func main() {
-	nums1 := []int{0}
-	m := 0
+	nums := []int{3, 2, 2, 3}
+	val := 3
 
-	nums2 := []int{2}
-	n := 1
+	res := array_question.RemoveElement(nums, val)
+	fmt.Println(res)
 
-	array_question.Merge(nums1, m, nums2, n)
-
-	fmt.Println(nums1)
+	fmt.Println(nums)
 }
